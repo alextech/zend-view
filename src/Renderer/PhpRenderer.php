@@ -40,7 +40,6 @@ use Zend\View\Variables;
  * @method mixed escapeHtmlAttr($value, $recurse = \Zend\View\Helper\Escaper\AbstractHelper::RECURSE_NONE)
  * @method mixed escapeJs($value, $recurse = \Zend\View\Helper\Escaper\AbstractHelper::RECURSE_NONE)
  * @method mixed escapeUrl($value, $recurse = \Zend\View\Helper\Escaper\AbstractHelper::RECURSE_NONE)
- * @method \Zend\View\Helper\FlashMessenger flashMessenger($namespace = null)
  * @method \Zend\View\Helper\Gravatar gravatar($email = "", $options = array(), $attribs = array())
  * @method \Zend\View\Helper\HeadLink headLink(array $attributes = null, $placement = \Zend\View\Helper\Placeholder\Container\AbstractContainer::APPEND)
  * @method \Zend\View\Helper\HeadMeta headMeta($content = null, $keyValue = null, $keyType = 'name', $modifiers = array(), $placement = \Zend\View\Helper\Placeholder\Container\AbstractContainer::APPEND)

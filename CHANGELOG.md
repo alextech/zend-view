@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 3.0.0
+
+- Moved `FlashMessenger` view helper to be together with corresponding [MVC Controller Plugin](https://github.com/zendframework/zend-mvc-plugin-flashmessenger/issues/3)
+
 ## 2.8.2 - TBD
 
 ### Added

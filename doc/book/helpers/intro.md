@@ -58,7 +58,8 @@ for, and rendering, the various HTML `<head>` tags, such as `HeadTitle`,
 - [BasePath](base-path.md)
 - [Cycle](cycle.md)
 - [Doctype](doctype.md)
-- [FlashMessenger](flash-messenger.md)
+
+[comment]: #(TODO Add link to wherever flashmessenger vew helper plugin will end up to help discoverability.) 
 - [Gravatar](gravatar.md)
 - [HeadLink](head-link.md)
 - [HeadMeta](head-meta.md)

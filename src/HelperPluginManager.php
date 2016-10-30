@@ -62,9 +62,6 @@ class HelperPluginManager extends AbstractPluginManager
         'escapeUrl'           => Helper\EscapeUrl::class,
         'EscapeUrl'           => Helper\EscapeUrl::class,
         'escapeurl'           => Helper\EscapeUrl::class,
-        'flashmessenger'      => Helper\FlashMessenger::class,
-        'flashMessenger'      => Helper\FlashMessenger::class,
-        'FlashMessenger'      => Helper\FlashMessenger::class,
         'Gravatar'            => Helper\Gravatar::class,
         'gravatar'            => Helper\Gravatar::class,
         'headLink'            => Helper\HeadLink::class,
@@ -148,7 +145,6 @@ class HelperPluginManager extends AbstractPluginManager
      * @var array
      */
     protected $factories = [
-        Helper\FlashMessenger::class      => Helper\Service\FlashMessengerFactory::class,
         Helper\Identity::class            => Helper\Service\IdentityFactory::class,
         Helper\BasePath::class            => InvokableFactory::class,
         Helper\Cycle::class               => InvokableFactory::class,
@@ -186,7 +182,6 @@ class HelperPluginManager extends AbstractPluginManager
 
         // v2 canonical FQCNs
 
-        'zendviewhelperflashmessenger'    => Helper\Service\FlashMessengerFactory::class,
         'zendviewhelperidentity'          => Helper\Service\IdentityFactory::class,
         'zendviewhelperbasepath'          => InvokableFactory::class,
         'zendviewhelpercycle'             => InvokableFactory::class,

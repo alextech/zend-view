@@ -16,7 +16,7 @@ cache:
 env:
   global:
     - COMPOSER_ARGS="--no-interaction --ignore-platform-reqs"
-    - LATEST_DEPS="zendframework/zend-mvc-plugin-flashmessenger zendframework/zend-mvc-i18n zendframework/zend-mvc-console"
+    - LATEST_DEPS="zendframework/zend-mvc-i18n zendframework/zend-mvc-console"
     - SITE_URL=https://zendframework.github.io/zend-view
     - GH_USER_NAME="Matthew Weier O'Phinney"
     - GH_USER_EMAIL=matthew@weierophinney.net
