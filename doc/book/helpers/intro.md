@@ -58,8 +58,6 @@ for, and rendering, the various HTML `<head>` tags, such as `HeadTitle`,
 - [BasePath](base-path.md)
 - [Cycle](cycle.md)
 - [Doctype](doctype.md)
-
-[comment]: #(TODO Add link to wherever flashmessenger vew helper plugin will end up to help discoverability.) 
 - [Gravatar](gravatar.md)
 - [HeadLink](head-link.md)
 - [HeadMeta](head-meta.md)
@@ -104,6 +102,12 @@ for, and rendering, the various HTML `<head>` tags, such as `HeadTitle`,
 >
 > View helpers related to **paginator** are documented in the
 > [Paginator Usage](https://zendframework.github.io/zend-paginator/usage/#rendering-pages-with-view-scripts)
+> documentation.
+
+> ### FlashMessenger helper
+>
+> View helper related to **Flash Messenger** is documented in the
+> [FLash Messenger View Helper](https://docs.zendframework.com/zend-mvc-plugin-flashmessenger/view-helper)
 > documentation.
 
 > ### Custom helpers
